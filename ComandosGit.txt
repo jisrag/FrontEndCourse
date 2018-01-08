@@ -1,0 +1,10 @@
+git init
+git remote add origin "https://github.com/jisrag/FrontEndCourse.git"
+git pull origin master
+git status
+git add name.txt
+git commit -m "Mesage is here"
+git add -A
+git commit -a -m "Mesage is here"
+git log (Muestra los commits hechos)
+

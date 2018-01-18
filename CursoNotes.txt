@@ -1,0 +1,5 @@
+Ctrl+k, Ctrol+b  ( Correr pagina en explorador)
+-----------------------------------------------------------
+<a href="#skipToSection">Go to Highlighted Section</a>
+<p id="skipToSection">
+</p>

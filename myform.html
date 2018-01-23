@@ -19,5 +19,28 @@
             <input type="submit" value="Clickeamo para Submit">
 
         </form>
+
+        <form>
+            <fieldset>
+                <legend>Application Form</legend>
+                Full Name: <input name="fullName" type="text" required="required" placeholder="Enter your first name" />
+                Email Address: <input name="emailAddress" type="email" required="required" placeholder="Enter your e-mail address" />
+                Website: <input name="website" type="url" required="required" placeholder="Enter your website url" />
+            </fieldset>
+            <input type="submit" value="Enroll" />
+        </form>
+
+        <form action="http://www.example.com/formsubmission" method="POST">
+            <fieldset>
+                <legend>User Information</legend>
+                First Name: <input type="text" name="fname" />
+                Last Name: <input type="text" name="lname" />
+            </fieldset>  
+            <fieldset>
+                <legend>Location</legend>
+                Hometown: <input type="text" name="home" />
+            </fieldset>  
+            <input type="submit" value="Submit Information" />  
+        </form>
     </body>
 </html>

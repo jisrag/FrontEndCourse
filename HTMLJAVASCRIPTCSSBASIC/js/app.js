@@ -1,7 +1,10 @@
-var app = angular.module('basicApp', []);
-app.controller('homeController', function ($scope) {
-   $scope.uname = "demouser";
-    $scope.testMe = function () {
-        $scope.uname += "123";
-    };
-});
+var module = angular.module('listApp', []);
+var controller = module.controller('listController', initController);
+function initController($scope) {    
+    $scope.items = ['First Item'];
+    $scope.addItem = function() {
+        if ($scope.newItem) {
+            $scope.items.push($scope.newItem);
+            $scope.newItem = undefined;
+        }        
+    }
